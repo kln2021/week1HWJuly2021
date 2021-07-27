@@ -3,88 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karen's Brochure</title>
+    <link rel="stylesheet" href="./styles.css">
 
-    <style>
+       
+    <!-- Pictures on page 1 & 3 could not get them to get to the size I wanted. 
+    I know it has something to do with my height but when I tried to change the height the 
+    borders on page 2 did not go to the bottom. Help? (Thank you)-->
+    
+        <style>
            
-        #brochure{
-            display: flex;
-            width: 100%;
-            height: 570px;
-            }
-
-        #brochure > div{
-            width: 33.3333333333%;
-            padding: 10px;
-            }
-        
-        
-        .Col1 h1 {
-                text-align: center;
-                font-style: normal;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                text-decoration: underline;
-                }
-
-        .Col1 p {
-            text-align: center;
-        }      
-            
-
-        .Col1 img {
-            width: 100%;
-            height: 70%;
-
-        }
-                 
-        .Col2 {
-                height: 100%;
-                border-left: 8px solid;
-                border-right: 8px solid;
-        }
-
-        .Col2 img {
+            #brochure{
+                display: flex;
                 width: 100%;
-                
                 }
 
-        .Col2  h1 {
-              text-align: center;
-              font-family: Georgia, 'Times New Roman', Times, serif;
-              font-style: oblique 40deg;
-              font-weight: 700;
-              text-decoration: underline;
+            #brochure > div{
+                width: 33.3333333333%;
+                height: 100%;
+                padding: 10px;
+                }
+            
+            
+            .Col1 h1 {
+                    text-align: center;
+                    font-style: normal;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    text-decoration: underline;
+                    }
+
+            .Col1 p {
+                text-align: center;
+                }      
+ 
+            .Col1 img {
+                width: 100%;
+                height: 70%;
+                }
+                     
+            .Col2 {
+                    height: 100%;
+                    border-left: 8px solid;
+                    border-right: 8px solid;
+                }
+
+            .Col2 img {
+                    width: 100%;
+                   }
+
+            .Col2  h1 {
+                  text-align: center;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-style: oblique 40deg;
+                  font-weight: 700;
+                  text-decoration: underline;
+                }
+
+            .cell1 img {
+                Width: 40%;
+                margin-inline: 30%;
             }
 
-        .cell1 img {
-            Width: 40%;
-            margin-inline: 30%;
-        }
-
-        .Col3 h1 {
-              text-align: center;
-              font-family: sans-serif;
-              font-weight: 700;
-        }
-
-        hr {
-            border-top: solid 7px;
-        }
-
-        p {
-            text-align: justify;
+            .Col3 h1 {
+                  text-align: center;
+                  font-family: sans-serif; color: red;
+                  font-weight: 700;
             }
 
-        .cell3 img {
-            width: 100%;
+            hr {
+                border-top: solid 7px;
             }
 
-    </style>
+            p {
+                text-align: justify;
+                }
 
+            .cell3 img {
+                width: 100%;
+                }
+
+        </style>
 
 </head>
 <body>
+
     <div id="brochure">
 
         <div class="Col1"> <h1>Follow us <br> on <br> Social Media</h1>
@@ -110,7 +113,7 @@
     
         <!-- <image reference: https://city-countyobserver.com/wp-content/uploads/2015/05/FlagEagleBald.jpg>-->
             
-            <img src="" 
+            <img src="images/FlagEagleBald.png" 
             alt="I love the USA">
 
             <h1>Contact Us</h1>
@@ -149,10 +152,6 @@
         </div>
 
     </div>
-    
 
-
-
-    
 </body>
 </html>
